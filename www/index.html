@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#11131a">
+  <meta name="description" content="WHYITEM — 나만의 평행우주를 만드는 오프라인 텍스트 RPG">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <title>WHYITEM · Parallel Worlds</title>
+</head>
+<body>
+  <div id="app" class="app-shell">
+    <header class="topbar">
+      <button class="brand" id="brandHome" aria-label="Home"><span class="brand-mark">W</span><span><b>WHYITEM</b><small>PARALLEL WORLDS</small></span></button>
+      <div class="top-actions"><span id="offlineBadge" class="offline-badge">● OFFLINE</span><button class="icon-btn" id="languageBtn" aria-label="Language">KO / EN</button></div>
+    </header>
+    <main id="main" class="main-content" tabindex="-1"></main>
+    <nav id="bottomNav" class="bottom-nav" aria-label="Main navigation">
+      <button data-page="home" class="nav-item active"><span>⌂</span><small data-i18n="nav_home">세계</small></button>
+      <button data-page="explore" class="nav-item"><span>✦</span><small data-i18n="nav_explore">탐험</small></button>
+      <button data-page="items" class="nav-item"><span>▤</span><small data-i18n="nav_items">아이템</small></button>
+      <button data-page="history" class="nav-item"><span>≋</span><small data-i18n="nav_history">역사</small></button>
+      <button data-page="settings" class="nav-item"><span>⚙</span><small data-i18n="nav_settings">설정</small></button>
+    </nav>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </div>
+  <input id="imagePicker" type="file" accept="image/*" hidden>
+  <input id="importPicker" type="file" accept="application/json,.json" hidden>
+  <script src="app.js"></script>
+</body>
+</html>

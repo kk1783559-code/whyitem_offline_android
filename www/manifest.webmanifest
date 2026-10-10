@@ -1,0 +1,12 @@
+{
+  "name": "WHYITEM Parallel Worlds",
+  "short_name": "WHYITEM",
+  "description": "An offline parallel-world text RPG",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#101219",
+  "theme_color": "#11131a",
+  "lang": "ko",
+  "icons": []
+}
